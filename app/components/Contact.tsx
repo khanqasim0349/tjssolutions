@@ -19,7 +19,7 @@ export default function Contact() {
     }));
   };
 
-  const handleSubmit = async (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
   
     try {
@@ -35,7 +35,7 @@ export default function Contact() {
       if (!response.ok) {
         throw new Error("Failed to send message");
       }
-
+  
       const data = await response.json();
       console.log("Success:", data);
       setStatus("Thanks for your message! We'll be in touch soon.");
@@ -46,13 +46,13 @@ export default function Contact() {
         company_name: "",
         email: "",
         project_details: "",
-      });      
-  
+      });
     } catch (error) {
       console.error("Error:", error);
       setStatus("Oops! Something went wrong. Please try again.");
     }
   };
+  
   
 
   return (
