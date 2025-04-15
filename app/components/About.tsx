@@ -170,7 +170,7 @@ export default function About() {
               <p className="text-blue-600 mb-2">Founder & Lead Developer</p>
               <p className="text-gray-600 text-sm">
                 Qasim, the founder of TJS Solutions, is a passionate full-stack
-                developer and visionary leader. With over 2 years of hands-on
+                developer and visionary leader. With over 4 years of hands-on
                 experience, he specializes in building scalable, efficient, and
                 innovative digital solutions. From code to strategy, Qasim
                 drives the team's technical excellence and inspires a culture of
