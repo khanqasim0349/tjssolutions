@@ -13,7 +13,7 @@ export default function About() {
             experiences. Whether you're a startup or an enterprise, our
             passionate team is here to build custom software that not only
             works—but makes an impact. Let's bring your vision to life with
-            innovation, precision, and care.
+            innovation and precision.
           </p>
           <div className="w-24 h-1 bg-blue-600 mx-auto"></div>
         </div>
