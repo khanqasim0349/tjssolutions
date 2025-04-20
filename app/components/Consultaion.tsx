@@ -31,7 +31,7 @@ export default function Consultation() {
         >
           <a
             href="/contact"
-            className="inline-block bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white px-8 py-3 rounded-full text-lg font-medium shadow-lg transition duration-300"
+            className="inline-block bg-[#18AE69] hover:bg-white text-white hover:text-[#18AE69] px-8 py-3 rounded-full text-lg font-medium shadow-lg transition duration-300"
           >
             Book Your Free Consultation
           </a>

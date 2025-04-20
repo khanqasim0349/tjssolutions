@@ -58,7 +58,7 @@ export default function Contact() {
   return (
     <>
 
-      <section className="pt-24 py-16 bg-gray-800 text-white">
+      <section className="pt-24 py-16 bg-blue-950 text-white">
         <div className="container mx-auto text-center px-4">
           <h1 className="text-3xl sm:text-4xl font-bold mb-6 fade-in">
             Contact Us
@@ -205,7 +205,7 @@ export default function Contact() {
 
             <div className="lg:w-1/2">
               <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
-                <div className="bg-gradient-to-r from-purple-600 to-indigo-600 px-8 py-6 text-white">
+                <div className="bg-[#18AE69] px-8 py-6 text-white">
                   <h2 className="text-2xl font-bold tracking-tight">
                     Project Inquiry
                   </h2>
@@ -326,7 +326,7 @@ export default function Contact() {
                     <div>
                       <button
                         type="submit"
-                        className="w-full bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-medium py-3 px-6 rounded-lg hover:opacity-90 transform transition focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2"
+                        className="w-full bg-[#18AE69] text-white font-medium py-3 px-6 rounded-lg hover:opacity-90 transform transition focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2"
                       >
                         Submit Inquiry
                       </button>

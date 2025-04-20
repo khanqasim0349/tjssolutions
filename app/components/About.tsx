@@ -199,7 +199,13 @@ export default function About() {
 
             {/* Team Member 3 */}
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <div className="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-4"></div>
+              <div className="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-4">
+              <img
+                  src="adnan.jpg"
+                  alt="Profile"
+                  className="w-full h-full object-cover rounded-full"
+                />
+              </div>
               <h3 className="text-xl font-bold text-gray-800">Adnan Khan</h3>
               <p className="text-blue-600 mb-2">Project Manager</p>
               <p className="text-gray-600 text-sm">
@@ -262,7 +268,7 @@ export default function About() {
           </div>
 
           <a href="/contact">
-            <button className="bg-blue-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-blue-700 transition">
+            <button className="bg-[#18AE69] text-white px-6 py-3 rounded-lg font-bold hover:bg-white hover:text-[#18AE69] border-[#18AE69] transition">
               Start Your Project
             </button>
           </a>
