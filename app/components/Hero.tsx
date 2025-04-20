@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen bg-gray-800 text-white flex items-center justify-center pt-20 overflow-hidden">
+    <section className="relative min-h-screen bg-blue-950 text-white flex items-center justify-center pt-20 overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image

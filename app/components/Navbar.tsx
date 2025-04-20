@@ -12,10 +12,10 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="fixed top-0 w-full bg-gray-500 text-white p-0 shadow-md z-10">
-      <div className="container mx-auto flex justify-between items-center" style={{height:70}} >
-        <Link href="/" className="flex items-center">
-          <Image src="/tjslogo.png" alt="TJS Solutions" width={200} height={100} className="mr-2" />
+    <nav className="fixed top-0 md:w-full w-screen bg-blue-950 text-white p-0 shadow-md z-20">
+      <div className="container mx-auto flex justify-between items-center pr-4" style={{height:70}} >
+        <Link href="/" className="flex items-center z-30">
+          <Image src="/tjslogo-01.png" alt="TJS Solutions" width={200} height={100} className="mr-2" />
         </Link>
 
         {/* Desktop Menu (hidden on mobile) */}
@@ -41,7 +41,7 @@ export default function Navbar() {
 
       {/* Mobile Menu (full-screen overlay) */}
       {isOpen && (
-        <div className="fixed inset-0 bg-gray-900 bg-opacity-95 text-white flex flex-col items-center justify-center space-y-8 sm:hidden z-20">
+        <div className="fixed w-[38vh] h-screen -mt-18 border-none rounded-tr-2xl rounded-br-2xl bg-gray-900 bg-opacity-95 text-white flex flex-col items-start justify-between space-y-8 sm:hidden z-20 p-4">
           <button
             className="absolute top-4 right-4 focus:outline-none"
             onClick={toggleMenu}
@@ -51,7 +51,9 @@ export default function Navbar() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path>
             </svg>
           </button>
-          <div className="flex flex-col items-center space-y-6 text-xl">
+          
+          <div className="flex flex-col items-start space-y-6 text-xl p-4 mt-16">
+          
             <Link href="/" className="hover:text-gray-300 transition-colors fade-in" onClick={toggleMenu}>Home</Link>
             <Link href="/services" className="hover:text-gray-300 transition-colors fade-in" onClick={toggleMenu}>Services</Link>
             <Link href="/about" className="hover:text-gray-300 transition-colors fade-in" onClick={toggleMenu}>About</Link>
