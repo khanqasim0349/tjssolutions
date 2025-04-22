@@ -120,7 +120,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-sm text-gray-500 font-medium">Phone</p>
-                    <p className="text-gray-900 font-medium">(123) 456-7890</p>
+                    <p className="text-gray-900 font-medium">+92 349 8402381</p>
                     <p className="text-gray-600 text-sm mt-1">
                       Available Monday-Friday, 9am-5pm PST
                     </p>
@@ -146,10 +146,10 @@ export default function Contact() {
                       Office Location
                     </p>
                     <p className="text-gray-900 font-medium">
-                      123 Tech Avenue, Suite 200
+                     Swari, Tehsil Daggar, District Buner, 
                     </p>
                     <p className="text-gray-900 font-medium">
-                      San Francisco, CA 94107
+                    Khyber Pakhtunkhwa, Pakistan
                     </p>
                     <p className="text-gray-600 text-sm mt-1">
                       We're located in the heart of the tech district
@@ -261,7 +261,7 @@ export default function Contact() {
                         name="phone"
                         value={formData.phone}
                         onChange={handleChange}
-                        placeholder="(123) 456-7890"
+                        placeholder="0349 8402381"
                         className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-purple-500 focus:border-transparent outline-none transition"
                         required
                       />
@@ -299,7 +299,7 @@ export default function Contact() {
                         name="email"
                         value={formData.email}
                         onChange={handleChange}
-                        placeholder="your.email@company.com"
+                        placeholder="khanqasim0349@gmail.com"
                         className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-purple-500 focus:border-transparent outline-none transition"
                         required
                       />
